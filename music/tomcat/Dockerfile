@@ -4,7 +4,7 @@ FROM tomcat:8.5.4-jre8
 
 ENV REFRESHED_AT 2018-03-01
 
-ENV GITHUB_REPO https://github.com/lev-tmp/docker-compose/master/music/artifact
+ENV GITHUB_REPO https://github.com/lev-tmp/docker-compose/raw/master/music/artifacts
 ENV APP_FILE spring-music.war
 ENV TERM xterm
 ENV JAVA_OPTS -Djava.security.egd=file:/dev/./urandom

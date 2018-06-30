@@ -5,7 +5,7 @@ FROM nginx:latest
 
 ENV REFRESHED_AT 2018-03-02
 
-ENV GITHUB_REPO https://github.com/lev-tmp/docker-compose/master/music/static-content
+ENV GITHUB_REPO https://github.com/lev-tmp/docker-compose/raw/master/music/static-content
 ENV STATIC_FILE static.zip
 
 RUN apt-get update -qq \
